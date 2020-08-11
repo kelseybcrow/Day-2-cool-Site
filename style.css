@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(217, 217, 233);
+    margin: 0;
+}
+
+header {
+    padding-bottom: 30px;
+    color: white;
+    font-size: 22pt;
+    text-align: center;
+    height: 2.5em;
+}
+
+.blue-bg {
+    background-color: rgb(29, 49, 114);
+    border: black 3px solid;
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+}
+
+#title {
+    font-size: 16pt;
+}
+
+article h1 {
+    font-size: 16pt;
+}
+
+#title h1 {
+    padding: 1em;
+    border-top: solid 30px rgb(127, 178, 240);
+}
+
+article {
+    padding: 0 4em 0 10em;
+}
+
+aside {
+    padding: 4em 2em 0 6em;
+}
+
+footer {
+    background-color: rgb(31, 31, 114);
+    padding: 2em;
+}
