@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    padding-bottom: 30px;
+    padding-bottom: 50px;
     color: white;
     font-size: 22pt;
     text-align: center;
@@ -25,28 +25,35 @@ main {
     display: flex;
 }
 
-#title {
-    font-size: 16pt;
+article h1 {
+    font-size: 30pt;
 }
 
-article h1 {
-    font-size: 16pt;
+p {
+    margin: 0;
+}
+
+#title {
+    margin: 2em 0 1.5em 0;
+    padding: 0 0 0 8px;
+    border-top: solid 25px rgb(167, 185, 208);
 }
 
 #title h1 {
-    padding: 1em;
-    border-top: solid 30px rgb(127, 178, 240);
+    margin: 0;
+    text-align: center;
+    padding: 0.5em 0 0 0;
 }
 
 article {
-    padding: 0 4em 0 10em;
+    padding: 0 6em 0 8em;
 }
 
 aside {
-    padding: 4em 2em 0 6em;
+    padding: 4em 1em 0 0;
 }
 
 footer {
     background-color: rgb(31, 31, 114);
-    padding: 2em;
+    padding: 3em;
 }
